@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_latest"
+            android:icon="@mipmap/ic_latest"
+            android:title="@string/main_menu_latest" />
+        <item
+            android:id="@+id/nav_rklist"
+            android:icon="@mipmap/ic_rklist"
+            android:title="@string/main_menu_rklist" />
+        <item
+            android:id="@+id/nav_fav"
+            android:icon="@mipmap/ic_fav"
+            android:title="@string/main_menu_fav" />
+        <item
+            android:id="@+id/nav_config"
+            android:icon="@mipmap/ic_config"
+            android:title="@string/main_menu_config" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@android:drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@android:drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
